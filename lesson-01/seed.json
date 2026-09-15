@@ -1,0 +1,83 @@
+[
+  {
+    "_id": { "$oid": "651a1f000000000000000001" },
+    "orderId": "ORD-1001",
+    "status": "paid",
+    "total": 4500,
+    "createdAt": "2024-05-01T10:15:00Z",
+    "customer": {
+      "name": "Иван Петров",
+      "email": "ivan@example.com",
+      "phone": "+79990001122"
+    },
+    "items": [
+      { "sku": "A-01", "title": "Клавиатура", "qty": 1, "price": 3500 },
+      { "sku": "A-02", "title": "Коврик",     "qty": 1, "price": 1000 }
+    ],
+    "tags": ["electronics", "gift"]
+  },
+  {
+    "_id": { "$oid": "651a1f000000000000000002" },
+    "orderId": "ORD-1002",
+    "status": "pending",
+    "total": 1200,
+    "createdAt": "2024-05-02T12:00:00Z",
+    "customer": {
+      "name": "Мария Сидорова",
+      "email": "maria@example.com",
+      "phone": "+79990003344"
+    },
+    "items": [
+      { "sku": "B-11", "title": "Мышь", "qty": 2, "price": 600 }
+    ],
+    "tags": ["electronics"]
+  },
+  {
+    "_id": { "$oid": "651a1f000000000000000003" },
+    "orderId": "ORD-1003",
+    "status": "shipped",
+    "total": 8900,
+    "createdAt": "2024-05-03T09:30:00Z",
+    "customer": {
+      "name": "Алексей Кузнецов",
+      "email": "alex@example.com",
+      "phone": "+79990005566"
+    },
+    "items": [
+      { "sku": "C-21", "title": "Монитор", "qty": 1, "price": 8900 }
+    ],
+    "tags": ["electronics", "large"]
+  },
+  {
+    "_id": { "$oid": "651a1f000000000000000004" },
+    "orderId": "ORD-1004",
+    "status": "paid",
+    "total": 2100,
+    "createdAt": "2024-05-04T18:45:00Z",
+    "customer": {
+      "name": "Ольга Смирнова",
+      "email": "olga@example.com",
+      "phone": "+79990007788"
+    },
+    "items": [
+      { "sku": "D-31", "title": "Чехол", "qty": 3, "price": 700 }
+    ],
+    "tags": ["accessory"],
+    "coupon": "SALE10"       
+  },
+  {
+    "_id": { "$oid": "651a1f000000000000000005" },
+    "orderId": "ORD-1005",
+    "status": "cancelled",
+    "total": 300,
+    "createdAt": "2024-05-05T08:05:00Z",
+    "customer": {
+      "name": "Дмитрий Волков",
+      "email": "dmitry@example.com"       
+    },
+    "items": [
+      { "sku": "E-41", "title": "Кабель", "qty": 1, "price": 300 }
+    ],
+    "tags": []
+  }
+]
